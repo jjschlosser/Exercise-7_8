@@ -10,7 +10,7 @@ void SegInit(void) {
 
 int SegConvert(char SegValue) {
     int SegByte;
-    Switch (SegValue) {
+    switch (SegValue) {
         case 0: SegByte = 0x3F; break;
         case 1: SegByte = 0x06; break;
         case 2: SegByte = 0x5B; break;
